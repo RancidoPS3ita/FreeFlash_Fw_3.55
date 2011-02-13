@@ -19,4 +19,4 @@ Package Files" menu and run it.
 Kudos
 -----
 
-Jaicrab, ps3mrenigma for their work in "Alejandro" and  Flukes1 for lv1dumper
+Jaicrab, ps3mrenigma for their work in "Alejandro" and  Flukes1 for his lv1dumper
