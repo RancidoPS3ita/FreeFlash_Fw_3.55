@@ -12,7 +12,7 @@ INCLUDE		:=	include
 DATA		:=	data
 LIBS		:=	-lps3mlib -lgcm_sys -lreality -lsysutil -lpngdec -lsysmodule -lm
 
-TITLE		:=	FreeFlash (Writable Flash)
+TITLE		:=	FreeFlash (Writable Flash) 3.55
 APPID		:=	FREEFLASH
 CONTENTID	:=	UP0001-$(APPID)_00-0000000000000000
 ICON0		:=	$(DATA)/ICON0.PNG
