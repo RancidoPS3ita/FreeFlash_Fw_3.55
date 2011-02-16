@@ -1,4 +1,3 @@
-
 /*
  * freeflash.c -- FreeFlash (Writable Flash)
  *
@@ -127,7 +126,7 @@ static s32 Fw_CheckVersion(void)
 	/* TODO: Get firmware version without reading a fixed address */
 	
 	/* Read firmware version */
-	ver = 35500; // No peek, set a static number, dirty but work
+	ver = LV2_Peek(0x80000000003329B8ULL);
 
 	/* Find firmware */
 	for (i = 0;  i < NB_FIRMWARE; i++) {
